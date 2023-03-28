@@ -2,7 +2,7 @@
 # Distributed under the terms of the WTFPL License
 
 EAPI=8
-inherit desktop savedconfig toolchain-funcs git-r3 autotools
+inherit savedconfig git-r3
 
 DESCRIPTION="Suckless Status Tool"
 HOMEPAGE="https://tools.suckless.org/slstatus/"
@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://git.suckless.org/slstatus"
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE="savedconfig"
 
 RDEPEND="

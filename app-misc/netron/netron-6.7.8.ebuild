@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit desktop xdg
+inherit xdg
 
 DESCRIPTION="Visualizer for neural network, deep learning, and mechine learning models."
 HOMEPAGE="https://netron.app"
